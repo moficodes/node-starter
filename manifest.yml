@@ -1,0 +1,9 @@
+applications:
+  - path: .
+    name: mofi-node-red-playground
+    environment_json: {}
+    memory: 256M
+    instances: 1
+    disk_quota: 1024M
+    services:
+      - mofi-node-red-playground-cloudantNoSQLDB
